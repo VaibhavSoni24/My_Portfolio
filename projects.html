@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Soni - Projects</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">VS</div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="AboutMe.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="index.html#contact">Contact Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Body -->
+    <main>
+        <!-- Hero Section -->
+        <section id="projects-hero" class="projects-hero">
+            <div class="container">
+                <div class="projects-title">
+                    <h1>My Projects</h1>
+                    <div class="subtitle-line"></div>
+                    <p class="projects-subtitle">Explore my portfolio of work across various domains</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Categories / Filter Bar -->
+        <section class="projects-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="game">Game Development</button>
+                    <button class="filter-btn" data-filter="ai">AI & Machine Learning</button>
+                    <button class="filter-btn" data-filter="internship">Internship</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Major Projects Section -->
+        <section class="major-projects-section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- CareConnect Project -->
+                    <div class="project-card" data-category="ai">
+                        <div class="project-card-inner">
+                            <div class="project-card-front">
+                                <div class="project-img">
+                                    <i class="fas fa-heartbeat"></i>
+                                </div>
+                                <h3>CareConnect</h3>
+                                <p class="project-brief">AI-powered healthcare platform</p>
+                            </div>
+                            <div class="project-card-back">
+                                <h3>CareConnect</h3>
+                                <p>An AI-powered healthcare platform.</p>
+                                <div class="tech-tags">
+                                    <span>Python</span>
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="https://titanium-whitehalibut.onpella.app/" class="btn project-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                    <a href="https://github.com/VaibhavSoni24/CareConnect" class="btn project-btn"><i class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TravelSaathi Project -->
+                    <div class="project-card" data-category="ai">
+                        <div class="project-card-inner">
+                            <div class="project-card-front">
+                                <div class="project-img">
+                                    <i class="fas fa-route"></i>
+                                </div>
+                                <h3>TravelSaathi</h3>
+                                <p class="project-brief">AI-powered travel safety assistant</p>
+                            </div>
+                            <div class="project-card-back">
+                                <h3>TravelSaathi</h3>
+                                <p>An intelligent travel companion.</p>
+                                <div class="tech-tags">
+                                    <span>Python</span>
+                                    <span>OpenCV</span>
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn project-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                    <a href="#" class="btn project-btn"><i class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BeastBoy Game Project -->
+                    <div class="project-card" data-category="game">
+                        <div class="project-card-inner">
+                            <div class="project-card-front">
+                                <div class="project-img">
+                                    <i class="fas fa-paw"></i>
+                                </div>
+                                <h3>BeastBoy - The Last Hope</h3>
+                                <p class="project-brief">Open world zombie survival game</p>
+                            </div>
+                            <div class="project-card-back">
+                                <h3>BeastBoy - The Last Hope</h3>
+                                <p>An immersive open-world horror game.</p>
+                                <div class="tech-tags">
+                                    <span>Godot</span>
+                                    <span>GDScript</span>
+                                    <span>Blender</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn project-btn"><i class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FluentMate Project -->
+                    <div class="project-card" data-category="ai">
+                        <div class="project-card-inner">
+                            <div class="project-card-front">
+                                <div class="project-img">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <h3>FluentMate</h3>
+                                <p class="project-brief">Language learning AI assistant</p>
+                            </div>
+                            <div class="project-card-back">
+                                <h3>FluentMate</h3>
+                                <p>A Flask-based application that uses AI to help users learn new languages.</p>
+                                <div class="tech-tags">
+                                    <span>Python</span>
+                                    <span>Flask</span>
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn project-btn"><i class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Website Project -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-card-inner">
+                            <div class="project-card-front">
+                                <div class="project-img">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h3>Portfolio Website</h3>
+                                <p class="project-brief">Personal portfolio showcase</p>
+                            </div>
+                            <div class="project-card-back">
+                                <h3>Portfolio Website</h3>
+                                <p>A modern, responsive portfolio website.</p>
+                                <div class="tech-tags">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>JavaScript</span>
+                                    <span>Figma</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn project-btn"><i class="fas fa-external-link-alt"></i> Live Site</a>
+                                    <a href="#" class="btn project-btn"><i class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Projects Section -->
+        <section class="other-projects-section">
+            <div class="container">
+                <h2 class="section-title">Other Projects</h2>
+                
+                <div class="projects-categories">
+                    <!-- Web Development Projects -->
+                    <div class="project-category" data-category="web">
+                        <h3><i class="fas fa-globe"></i> Web Development</h3>
+                        <ul class="project-list">
+                            <li>
+                                <a href="#" class="project-link">
+                                    <span class="project-icon"><i class="fas fa-shopping-cart"></i></span>
+                                    <div class="project-info">
+                                        <h4>Comming Soon...</h4>
+                                        <p class="project-tooltip">Currently Working...</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- AI/ML Projects -->
+                    <div class="project-category" data-category="ai">
+                        <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
+                        <ul class="project-list">
+                            <li>
+                                <a href="#" class="project-link">
+                                    <span class="project-icon"><i class="fas fa-comment-dots"></i></span>
+                                    <div class="project-info">
+                                        <h4>Comming Soon...</h4>
+                                        <p class="project-tooltip">Currently Working...</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Game Development Projects -->
+                    <div class="project-category" data-category="game">
+                        <h3><i class="fas fa-gamepad"></i> Game Development</h3>
+                        <ul class="project-list">
+                            <li>
+                                <a href="#" class="project-link">
+                                    <span class="project-icon"><i class="fas fa-puzzle-piece"></i></span>
+                                    <div class="project-info">
+                                        <h4>Cheap Mario</h4>
+                                        <p class="project-tooltip">A challenging puzzle, platformer game with progressive difficulty</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="project-link">
+                                    <span class="project-icon"><i class="fas fa-running"></i></span>
+                                    <div class="project-info">
+                                        <h4>Multiplayer FPS</h4>
+                                        <p class="project-tooltip">An multiplayer first person shooter to enjoy with your firends.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="project-link">
+                                    <span class="project-icon"><i class="fas fa-chess-knight"></i></span>
+                                    <div class="project-info">
+                                        <h4>Wolfenstine 3D</h4>
+                                        <p class="project-tooltip">A single player first person shooter game.</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Internship Projects -->
+                    <div class="project-category" data-category="internship">
+                        <h3><i class="fas fa-briefcase"></i> Internship Projects</h3>
+                        <ul class="project-list">
+                            <li>
+                                <a href="#" class="project-link">
+                                    <span class="project-icon"><i class="fas fa-mobile-alt"></i></span>
+                                    <div class="project-info">
+                                        <h4>CodSoft</h4>
+                                        <p class="project-tooltip">Internship at CodSoft</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="project-link">
+                                    <span class="project-icon"><i class="fas fa-database"></i></span>
+                                    <div class="project-info">
+                                        <h4>CodeAlpha</h4>
+                                        <p class="project-tooltip">Internship at CodeAlpha</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="project-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Interested in working together?</h2>
+                    <p>Let's collaborate and build something amazing.</p>
+                    <a href="index.html#contact" class="btn cta-btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/VaibhavSoni24" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vaibhav-soni-867836285/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:vaibhavsoni280506@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/shubham.v.soni/profilecard/?igsh=NzN3YzE5YWtmaDQ=" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="tel:+91 6350366202"><i class="fas fa-phone"></i></a>
+                <a href="https://x.com/S_Vaibhav_Soni?t=uaw_VnX4dYbYuJSjlJwHdA&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">© 2025 Vaibhav Soni. All Rights Reserved.</p>
+        </div>
+        <button class="scroll-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="projects.js"></script>
+</body>
+</html>
