@@ -31,8 +31,5 @@ Feel free to reach out to me via the contact form on the website or through the 
 - **LinkedIn**: [Vaibhav Soni](https://www.linkedin.com/in/vaibhav-soni-867836285/)
 - **GitHub**: [VaibhavSoni24](https://github.com/VaibhavSoni24)
 
-## 📜 License
-This project is open-source and available under the [MIT License](LICENSE).
-
 ---
 Thank you for visiting my portfolio! 😊
